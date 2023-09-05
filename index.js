@@ -13,7 +13,7 @@ app.use(express.json());
 app.use("/api/books",Router);
 
 
-mongoose.connect("mongodb+srv://ma6530028:4GpLyh7MQs819bQL@cluster0.lhezpsp.mongodb.net/BookStore?retryWrites=true&w=majority", {
+mongoose.connect("Link", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
